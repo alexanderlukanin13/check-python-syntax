@@ -20,6 +20,10 @@ All necessary python versions should also be installed.
 Usage from code
 ---------------
 
+Import ``check_python_syntax`` function and call it upon files and directories.
+
+It returns a simple dictionary ``{file_path: [is_valid, message]}``.
+
 ::
 
     >>> from check_python_syntax import check_python_syntax
