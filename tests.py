@@ -14,6 +14,7 @@ class NormalizeVersionsTest(unittest.TestCase):
     def test(self):
         INPUT_OUTPUT = [
             # Single string
+            ('2', [(2,)]),
             ('2.6', [(2,6)]),
             # Comma-separated string
             ('2.6,2.7', [(2,6), (2,7)]),
