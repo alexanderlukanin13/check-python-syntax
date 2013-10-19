@@ -1,0 +1,6 @@
+.idea
+.tox
+check_python_syntax.egg-info
+__pycache__
+*.pyc
+*.pyo
