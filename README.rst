@@ -13,7 +13,7 @@ Installation
 
 ::
 
-    pip install https://github.com/alexanderlukanin13/check_python_syntax/archive/master.zip
+    pip install https://github.com/alexanderlukanin13/check-python-syntax/archive/master.zip
 
 All necessary python versions should also be installed.
 
@@ -86,10 +86,12 @@ Usage from command line
 Tips
 ----------------
 
-Compiled ``\*.pyc`` files are written to system temp directory (e.g. to ``/tmp``).
+Compiled ``*.pyc`` files are written to system temp directory (e.g. to ``/tmp``).
 To achieve better performance, it's highly recommended to use memory file system (tmpfs).
 
-Example ``/etc/fstab`` entry:::
+Example ``/etc/fstab`` entry:
+
+::
 
     tmpfs                /tmp                 tmpfs      size=256m             0 0
 
